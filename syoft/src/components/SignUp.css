@@ -1,11 +1,12 @@
+
 .signup-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150vh;
+    height: 250vh;
     background: #f4f4f4;
     padding: 20px;
-    margin: 50px;
+    
 }
 
 .signup-content {
@@ -13,7 +14,7 @@
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    overflow: hidden;
+    margin-top: 50%;
     max-width: 1000px;
     width: 100%;
 }
@@ -42,11 +43,11 @@
 
 .form-section {
     padding: 40px;
-    width: 100%;
-    max-width: 600px;
     flex: 1;
 }
-
+.form-section img{
+    height: 70px;
+}
 .form-section h2 {
     margin: 0 0 20px;
     font-size: 24px;
@@ -106,9 +107,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .terms label {
     font-size: 14px;
 };
-.image {
-    height: 50px;
-}
+
 @keyframes rainbowGlow {
     0% {
       box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;
