@@ -1,6 +1,4 @@
-/* dashboard.css */
 
-/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -73,7 +71,7 @@ button{
 }
 
 /* Logout button */
-.logout-button {
+button {
     background-color: #f44336;
     color: white;
     padding: 10px 20px;
@@ -84,7 +82,7 @@ button{
     
 }
 
-.logout-button:hover {
+button:hover {
     background-color: #d32f2f;
 }
 

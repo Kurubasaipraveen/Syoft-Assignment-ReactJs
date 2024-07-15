@@ -1,4 +1,4 @@
-// src/components/Login.js
+
 import React, { useState } from 'react';
 import { useHistory, Link } from 'react-router-dom';
 import './Login.css';
@@ -46,7 +46,7 @@ const Login = () => {
                         />
                     </div>
                     {error && <p className="error">{error}</p>}
-                    <button type="submit">Login</button>
+                    <button type="submit" className='button'>Login</button>
                 </form>
                 <p>Don't have an account? <Link to="/signup">Sign up</Link></p>
             </div>

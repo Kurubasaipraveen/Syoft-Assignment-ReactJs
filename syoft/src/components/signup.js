@@ -165,7 +165,7 @@ const Signup = () => {
                                 I agree to the <Link to="/terms">Terms of Service</Link> and <Link to="/privacy">Privacy Policy</Link>
                             </label>
                         </div>
-                        <button type="submit">Create Account</button>
+                        <button type="submit" className='button'>Create Account</button>
                     </form>
                 </div>
             </div>
