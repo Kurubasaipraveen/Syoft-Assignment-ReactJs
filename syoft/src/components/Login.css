@@ -1,10 +1,7 @@
 
 .login-container {
   width: 400px;
-<<<<<<< HEAD
-  
-=======
->>>>>>> 8b74ae038c81dd96c6471ec9768b90c7eecbed1c
+
   margin: auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -60,7 +57,7 @@
 }
 .btn-login:hover {
   animation: rainbowGlow 2s infinite alternate;
-<<<<<<< HEAD
+
 }; 
 
 * {
@@ -76,6 +73,4 @@ body {
   background-color: #23242a;
   height: 100vh;
 }
-=======
-};
->>>>>>> 8b74ae038c81dd96c6471ec9768b90c7eecbed1c
+

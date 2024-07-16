@@ -53,7 +53,7 @@ const Signup = () => {
                     <p>More than 17k people joined us, it’s your turn</p>
                 </div>
                 <div className="form-section">
-                    <img src='https://res.cloudinary.com/dyutmmnia/image/upload/e_improve:indoor/apvjhcbxn0kqhy3vhbhp.jpg' className='image' alt='image'/>
+                <img src='https://res.cloudinary.com/dyutmmnia/image/upload/e_improve:indoor/apvjhcbxn0kqhy3vhbhp.jpg' className='image'alt='Profile'/>
                     <form onSubmit={handleSubmit}>
                         <h2>Sign up</h2>
                         <p>Already have an account? <Link to="/login">Sign in</Link></p>
